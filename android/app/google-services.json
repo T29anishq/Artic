@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405752215647",
+    "project_id": "artic-7d7ff",
+    "storage_bucket": "artic-7d7ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405752215647:android:388d34c05056faf62703ea",
+        "android_client_info": {
+          "package_name": "com.example.arti_01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxkSBaVgaUHZKTpm70O6xUu6kBQxm6dkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

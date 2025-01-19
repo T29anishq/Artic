@@ -1,0 +1,51 @@
+name: artic01
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"  # Set a proper lower-bound SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.16.0
+  cloud_firestore: ^4.17.5
+  firebase_database: ^10.0.0
+  firebase_auth: ^4.4.3
+  google_sign_in: ^5.4.2
+  google_fonts: ^2.3.2
+  firebase_storage: ^11.2.3
+  image_picker: ^1.0.0+2
+  video_player: ^2.6.6
+  permission_handler: ^10.0.0
+  file_picker: ^5.0.0
+  flutter_animated_splash: ^0.0.10
+  audioplayers: ^3.0.0 
+  carousel_slider: ^4.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  flutter_native_splash: ^2.2.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/default_avatar.png
+    - assets/logo.png
+    - assets/your_video.mp4
+
+    # - images/a_dot_burr.jpeg
+    # - images/a_dot_ham.jpeg
+
+flutter_native_splash:
+  color: "#ffffff" # Background color
+  image: assets/logo.png # Path to your logo
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
